@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"c:\\\\Users\\\\Andzelika\\\\Desktop\\\\myWebsite\\\\assets\")",
+      "PowerShell(\"assets/ folder ready\")",
+      "PowerShell(\\(Get-Content \"c:\\\\Users\\\\Andzelika\\\\Desktop\\\\myWebsite\\\\index.html\" | Measure-Object -Line\\).Lines)"
+    ]
+  }
+}
