@@ -278,8 +278,6 @@
       transition: color .15s, background .15s;
     }
     .nav-links a:hover { color: var(--text); background: var(--bg); }
-    .nav-links a.nav-link-red { color: #e53e3e; font-weight: 600; }
-    .nav-links a.nav-link-red:hover { color: #c53030; background: #fff5f5; }
 
     .nav-right {
       display: flex;
@@ -353,8 +351,6 @@
       transition: background .15s;
     }
     .mobile-menu a:hover { background: var(--bg); }
-    .mobile-menu a.nav-link-red { color: #e53e3e; font-weight: 600; }
-    .mobile-menu a.nav-link-red:hover { color: #c53030; background: #fff5f5; }
 
     /* ─── HERO ─────────────────────────────────────────────────────── */
     #home {
@@ -975,7 +971,7 @@
 
     <ul class="nav-links">
       <li><a href="#home"    data-da="Hjem"           data-en="Home">Hjem</a></li>
-      <li><a href="#contact" class="nav-link-red" data-da="Kontakt"         data-en="Contact">Kontakt</a></li>
+      <li><a href="#contact" data-da="Kontakt"         data-en="Contact">Kontakt</a></li>
     </ul>
 
     <div class="nav-right">
@@ -994,7 +990,7 @@
 <!-- Mobile menu -->
 <div class="mobile-menu" id="mobile-menu">
   <a href="#home"    onclick="closeMenu()" data-da="Hjem"        data-en="Home">Hjem</a>
-  <a href="#contact" onclick="closeMenu()" class="nav-link-red" data-da="Kontakt"      data-en="Contact">Kontakt</a>
+  <a href="#contact" onclick="closeMenu()" data-da="Kontakt"      data-en="Contact">Kontakt</a>
 </div>
 
 <!-- ══════════════ MAIN CONTENT ══════════════════════════════════ -->
